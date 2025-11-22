@@ -79,8 +79,8 @@ Proyek ini mengimplementasikan beberapa algoritma machine learning:
    - Feature selection menggunakan SelectKBest
 
 2. **Split Data:**
-   - Training Set: 75% (576 sampel)
-   - Testing Set: 25% (192 sampel)
+   - Training Set: ~74% 
+   - Testing Set: ~26% (200 sampel)
 
 3. **Hyperparameter Tuning:**
    - Grid Search untuk menemukan parameter terbaik
