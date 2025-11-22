@@ -148,11 +148,11 @@ pip install -r requirements.txt
 
 ### Dependencies
 
-Package yang dibutuhkan:
+Package yang dibutuhkan (lihat `requirements.txt`):
 - pandas==2.2.3
-- streamlit
-- scikit-learn
-- setuptools
+- streamlit (versi terbaru)
+- scikit-learn (versi terbaru)
+- setuptools (versi terbaru)
 
 ## 💻 Cara Penggunaan
 
@@ -360,4 +360,4 @@ Aplikasi ini dibuat untuk tujuan pembelajaran dan demonstrasi. Hasil prediksi ti
 
 ---
 
-*Terakhir diperbarui: 2025*
+*Terakhir diperbarui: November 2025*
