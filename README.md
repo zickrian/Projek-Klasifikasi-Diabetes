@@ -263,7 +263,7 @@ Projek-Klasifikasi-Diabetes/
 
 #### Akurasi
 - **Training Accuracy:** 100% (1.0)
-- **Testing Accuracy:** 90.5% (0.905)
+- **Testing Accuracy:** 91.0% (0.91)
 - **Best CV Score:** 91.0% (Grid Search)
 
 #### Classification Report (Test Set)
