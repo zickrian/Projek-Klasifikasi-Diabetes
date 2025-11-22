@@ -79,8 +79,8 @@ Proyek ini mengimplementasikan beberapa algoritma machine learning:
    - Feature selection menggunakan SelectKBest
 
 2. **Split Data:**
-   - Training Set: ~74% 
-   - Testing Set: ~26% (200 sampel)
+   - Training Set: 568 sampel
+   - Testing Set: 200 sampel
 
 3. **Hyperparameter Tuning:**
    - Grid Search untuk menemukan parameter terbaik
@@ -263,7 +263,7 @@ Projek-Klasifikasi-Diabetes/
 
 #### Akurasi
 - **Training Accuracy:** 100% (1.0)
-- **Testing Accuracy:** 89.5% (0.895)
+- **Testing Accuracy:** 90.5% (0.905)
 - **Best CV Score:** 91.0% (Grid Search)
 
 #### Classification Report (Test Set)
@@ -302,9 +302,11 @@ weighted avg       0.91      0.91      0.90       200
     'max_features': 'sqrt',
     'min_samples_leaf': 1,
     'min_samples_split': 2,
-    'n_estimators': 100
+    'n_estimators': 100  # Hasil Grid Search
 }
 ```
+
+**Catatan:** Dalam implementasi final aplikasi web (Stream_diabetes.py), model menggunakan `n_estimators=200` dan `max_depth=10` untuk meningkatkan performa.
 
 ## 🤝 Kontribusi
 
